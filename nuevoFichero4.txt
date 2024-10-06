@@ -1,0 +1,2 @@
+Se crea el fichero 4 
+Se crea una variable ruta
