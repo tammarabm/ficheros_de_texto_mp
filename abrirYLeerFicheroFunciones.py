@@ -11,7 +11,13 @@ def leerArchivo(ruta):
         lista.append(x)
     return lista
 
+def mostrarLibros(lista):
+    for libro in lista: 
+        print(libro)
+    
+
+
 #Principal
 ruta='libros'
 listaLibros=leerArchivo(ruta)
-print(listaLibros)
+mostrarLibros(listaLibros)
